@@ -26,4 +26,15 @@ public class Asignatura {
     private Integer id_horario;
 
     // Getters y Setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setIdDocente(Integer id_docente) {
+        this.id_docente = id_docente;
+    }
+
+    public void setIdHorario(Integer id_horario) {
+        this.id_horario = id_horario;
+    }
 }

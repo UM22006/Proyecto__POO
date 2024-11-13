@@ -17,13 +17,24 @@ public class Horario {
     private Integer id_horario;
 
     @Column
-    private Date fecha;
+    private String fecha;
 
     @Column
-    private Time hora_inicio;
+    private String hora_inicio;
 
     @Column
-    private Time hora_finalizacion;
+    private String hora_finalizacion;
 
     // Getters y Setters
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public void setHoraInicio(String hora_inicio) {
+        this.hora_inicio = hora_inicio;
+    }
+
+    public void setHoraFinalizacion(String hora_finalizacion) {
+        this.hora_finalizacion = hora_finalizacion;
+    }
 }
