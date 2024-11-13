@@ -24,7 +24,22 @@ public class Clase {
     private Integer id_horario;
 
     @Column
-    private Boolean estado;
+    private Integer estado;
 
     // Getters y Setters
+    public void setEstado(Integer estado) {
+        this.estado = estado;
+    }
+
+    public void setIdAsignatura(Integer id_asignatura) {
+        this.id_asignatura = id_asignatura;
+    }
+
+    public void setIdDocente(Integer id_docente) {
+        this.id_docente = id_docente;
+    }
+
+    public void setIdHorario(Integer id_horario) {
+        this.id_horario = id_horario;
+    }
 }

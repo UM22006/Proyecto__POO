@@ -65,3 +65,7 @@ body {
     text-align: center;
     color: #222;
 }
+.form {
+    max-width: 60rem;
+    margin: 0 auto;
+}
